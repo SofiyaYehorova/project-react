@@ -1,10 +1,11 @@
 
 import './App.css';
+import Character from "./components/description/Character";
 
 function App() {
   return (
     <div>
-      hello world
+      <Character/>
     </div>
   );
 }
