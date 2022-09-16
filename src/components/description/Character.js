@@ -1,10 +1,9 @@
-function Character (props){
+function Character ({character}){
 
-    let {person}=props;
     return(
         <div>
-            <h2>{person.id} -- {person.name}</h2>
-            <p>{person.gender}</p>
+            <h2>{character.id} -- {character.name}</h2>
+            <p>{character.gender}</p>
 
 
         </div>

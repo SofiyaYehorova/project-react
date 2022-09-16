@@ -1,11 +1,11 @@
 
 import './App.css';
-import Character from "./components/description/Character";
+import RikiAndMartin from "./components/description/RikiAndMartin";
 
 function App() {
   return (
     <div>
-      <Character/>
+      <RikiAndMartin/>
     </div>
   );
 }

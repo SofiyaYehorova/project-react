@@ -3,7 +3,7 @@ import Character from "./Character";
 
 function RikiAndMartin(){
 
-    const [RikiAndMartin, setRikiAndMartin] = useState([]);
+    const [rikiAndMartin, setRikiAndMartin] = useState([]);
 
     fetch(`https://rickandmortyapi.com/api/character`)
         .then(value => value.json())
@@ -14,7 +14,7 @@ function RikiAndMartin(){
     return(
     <div>
         {
-            RikiAndMartin.map(person =>
+            rikiAndMartin.map(person =>
                 <Character
                     key={person.id}
                     character={person}
