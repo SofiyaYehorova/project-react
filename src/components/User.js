@@ -3,8 +3,8 @@ export default function User(props){
 
     return (<div className="box">
         <div className="conteiner">
-            <h2>{user.id} -- {user.name}</h2>
-            <p>{user.address.city} <br/> {user.email}</p>
+            <h2 className="second">{user.id} -- {user.name}</h2>
+            <p className="third">{user.address.city} <br/> {user.email}</p>
 
             <button onClick={()=>{
                 lift(user);

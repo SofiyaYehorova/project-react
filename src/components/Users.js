@@ -21,8 +21,7 @@ useEffect(()=>{
 
 return (<div>
         <hr/>
-        {/*{JSON.stringify(user)}*/}
-        {<p>{user?.username}</p>}
+        {<p className="first">{user?.username}</p>}
         <hr/>
 
     {users.map((user, index)=>(<User
