@@ -7,7 +7,7 @@ const axiosInstance= axios.create({
 
 });
 
-const saveUser=(data)=>axiosInstance.post('', {data});
+const saveUser=(data)=>axiosInstance.post('', data)
 
 
 export {saveUser};
