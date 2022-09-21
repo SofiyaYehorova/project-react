@@ -20,23 +20,12 @@ function User() {
         saveUser(data).then(({data})=> console.log(data));
     }
 
+    const submit=async (user)=>{
+        const {data} = await saveUser.create(user);
+        console.log(data);
+    }
 
         return (
-        // <div className={css.User}>
-        //     <form onSubmit={handleSubmit(onSubmit)} onChange={()=>console.log(errors)}>
-        //         <input
-        //             type="text"
-        //             {...register("name", {required:true, minLength:{value: 2, message:'заповніть поле'}})}
-        //             placeholder="name"/>
-        //         <input type="text" {...register("username", {required:true})} placeholder="username"/>
-        //         {errors.model &&<span>{errors.model.message}</span>}
-        //         <input type="text" {...register("email")} placeholder="email"/>
-        //         <div className={css.tools}>
-        //             <button disabled={!isValid}>save user</button>
-        //         </div>
-        //
-        //     </form>
-        // </div>
 
     <div className={css.User}>
         <form onSubmit={handleSubmit(onSubmit)} onChange={()=>console.log(errors)}>
@@ -49,7 +38,6 @@ function User() {
             <div className={css.tools}>
                 <button disabled={!isValid}>save user</button>
             </div>
-
         </form>
     </div>
     );
