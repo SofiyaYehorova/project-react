@@ -1,12 +1,12 @@
 import './App.css';
-import {Launches} from "./components/flyMission/Launches";
+import {Planes} from "./components/planes/Planes";
 
 
 function App() {
 
   return (
     <div className="wrap">
-      <Launches/>
+      <Planes/>
     </div>
   );
 }

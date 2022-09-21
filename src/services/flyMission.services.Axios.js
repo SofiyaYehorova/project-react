@@ -1,9 +1,18 @@
 import axios from "axios";
 
-let axiosInstance=axios.create({
-    baseURL:'https://api.spacexdata.com/v3/launches'
-});
+import {baseURL} from "../configs";
 
-export function getLaunchesAxios(){
-    return axiosInstance();
-}
+const axiosService=axios.create({baseURL});
+
+export {axiosService};
+
+
+// import axios from "axios";
+//
+// let axiosInstance=axios.create({
+//     baseURL:'https://api.spacexdata.com/v3/launches'
+// });
+//
+// export function getLaunchesAxios(){
+//     return axiosInstance();
+// }
