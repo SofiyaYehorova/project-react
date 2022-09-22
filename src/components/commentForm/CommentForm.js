@@ -6,7 +6,6 @@ const CommentForm=({setComments})=>{
     const {register, reset, handleSubmit, formState:{errors, isValid}} = useForm({
         mode:"all",
         defaultValues:{
-            comment:'comment'
         }
     });
 
@@ -16,8 +15,9 @@ const CommentForm=({setComments})=>{
 
     return(
         <form onSubmit={handleSubmit(submit)}>
-            <input type="text" {...register("comment", {require: {value:true, message:"Error"}})}/>
+            <input type="text" {...register("body")} placeholder="create a comment"/>
             {errors.comment && <span>{errors.comment.message}</span>}
+
             <button>Save comment</button>
         </form>
     )
