@@ -1,6 +1,4 @@
-import './App.css';
-import {User} from "./components/User";
-import style from "./components/User.module.css"
+import {Comments} from "./components";
 
 
 function App() {
@@ -9,7 +7,7 @@ function App() {
 
     return (
     <div>
-      <User/>
+        <Comments/>
     </div>
   );
 }
