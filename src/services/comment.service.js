@@ -3,7 +3,7 @@ import {urls} from "../config";
 
 const commentService={
     getAll:()=>axiosService.get(urls.comments),
-    createComment: (comment)=>axiosService.post(urls.comments,user)
+    createComment: (comment)=>axiosService.post(urls.comments, comment)
 }
 
 export {

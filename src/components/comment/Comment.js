@@ -1,8 +1,11 @@
-function Comment (comment){
+const Comment =({comment})=>{
 
     return(
         <div>
-        <h3>{comment.id} {comment.body}</h3>
+            <div>
+                <h3>{comment.id} {comment.body}</h3>
+            </div>
+
         </div>
     )
 }

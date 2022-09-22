@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+
 import {commentService} from "../../services";
 import {CommentForm} from "../commentForm/CommentForm";
 import {Comment} from "../comment/Comment";
@@ -13,7 +14,7 @@ useEffect(()=>{
     return(
         <div>
             <div>
-                <CommentForm/>
+                <CommentForm setComments={setComments}/>
             </div>
             <div>
                 {
