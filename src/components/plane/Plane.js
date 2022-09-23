@@ -1,9 +1,9 @@
 const Plane=({plane})=>{
 
     return (
-        <div>
+        <div className="info">
             <h2>{plane.flight_number} -- {plane.mission_name}</h2>
-            <img src={plane.links.mission_patch_small} alt={mission_name}/>
+            <img src={plane.links.mission_patch_small} alt={plane.mission_name}/>
         </div>
     )
 }
