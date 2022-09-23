@@ -5,8 +5,6 @@ import style from "./components/User.module.css"
 
 function App() {
 
-
-
     return (
     <div>
       <User/>

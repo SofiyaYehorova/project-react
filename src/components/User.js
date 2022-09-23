@@ -7,9 +7,6 @@ import {saveUser} from "../services/user.api.service";
 import {userValidator} from "../validators";
 
 
-
-
-
 function User() {
     const {register, handleSubmit, formState:{errors, isValid}, setValue} = useForm({
         resolver:joiResolver(userValidator),
