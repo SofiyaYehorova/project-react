@@ -11,3 +11,4 @@ const Comment = ({comment}) => {
 };
 
 export {Comment};
+

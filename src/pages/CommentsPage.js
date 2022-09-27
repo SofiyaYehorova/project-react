@@ -7,7 +7,7 @@ const CommentsPage = () => {
             <Outlet/>
             <Comments/>
         </div>
-    );
+    )
 };
 
 export {CommentsPage};

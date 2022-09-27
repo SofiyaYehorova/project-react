@@ -17,7 +17,6 @@ const Posts = () => {
             {post &&(<Post post={post}/>)}
         </div>
     );
-};
-
+}
 
 export {Posts};

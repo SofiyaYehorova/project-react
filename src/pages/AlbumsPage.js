@@ -5,7 +5,7 @@ const AlbumsPage = () => {
         <div>
             <Albums/>
         </div>
-    );
+    )
 };
 
 export {AlbumsPage};
