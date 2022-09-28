@@ -11,7 +11,7 @@ function App() {
      <Route path={'/'} element={<MainLayout/>}/>
      <Route path={'albums'} element={<AlbumsPage/>}/>
      <Route path={'comments'} element={<CommentsPage/>}>
-       <Route path={'postId'} element={<Posts/>}/>
+       <Route path={':postId'} element={<Posts/>}/>
      </Route>
 
      <Route path={'todos'} element={<TodosPage/>}/>
