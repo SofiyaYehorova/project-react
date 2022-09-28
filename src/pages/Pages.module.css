@@ -1,0 +1,26 @@
+.home{
+    font-size: 50px;
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albums{
+    font-size: 20px;
+    background: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+       }
+.nfp{
+    font-family: Padauk;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todos{
+    font-size: 20px;
+    display: flex;
+    background: coral;
+}
+

@@ -1,8 +1,9 @@
 import {Todos} from "../components";
 
+import css from './Pages.module.css'
 const TodosPage = () => {
     return (
-        <div>
+        <div className={css.todos}>
             <Todos/>
         </div>
     )

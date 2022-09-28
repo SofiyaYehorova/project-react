@@ -1,0 +1,11 @@
+.main{
+    background: silver;
+
+}
+.main h3{
+    text-align: center;
+}
+.outlet {
+    min-height: 200px;
+    background: lightblue;
+}

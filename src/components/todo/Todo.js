@@ -1,6 +1,8 @@
+import css from './Todo.module.css';
+
 const Todo = ({todo}) => {
     return (
-        <div>
+        <div className={css.wrap}>
             <p>{todo.id} - {todo.title}</p>
         </div>
     );

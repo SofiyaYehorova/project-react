@@ -1,8 +1,9 @@
 import {Albums} from "../components";
 
+import css from './Pages.module.css'
 const AlbumsPage = () => {
     return (
-        <div>
+        <div className={css.albums}>
             <Albums/>
         </div>
     )

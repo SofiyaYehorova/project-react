@@ -1,6 +1,8 @@
+import css from './Post.module.css'
+
 const Post = ({post}) => {
     return (
-        <div>
+        <div className={css.post}>
             <p>{post.id} --{post.title}</p>
         </div>
     );

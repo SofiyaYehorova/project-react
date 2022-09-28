@@ -3,7 +3,7 @@ import {Outlet} from "react-router-dom";
 
 const CommentsPage = () => {
     return (
-        <div>
+        <div >
             <Outlet/>
             <Comments/>
         </div>

@@ -1,0 +1,17 @@
+
+.wrap{
+    width: 100%;
+    margin: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resolve{
+    /*width: 45%;*/
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
