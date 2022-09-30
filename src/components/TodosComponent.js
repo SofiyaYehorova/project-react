@@ -10,4 +10,4 @@ const TodosComponent = ({item}) => {
     );
 };
 
-export default TodosComponent;
+export {TodosComponent};

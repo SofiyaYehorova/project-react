@@ -12,4 +12,4 @@ const TodosDetails = () => {
     );
 };
 
-export default TodosDetails;
+export {TodosDetails};
